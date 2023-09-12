@@ -40,10 +40,11 @@ body{
     color: white;
 }
 .dropdown{
+    background: transparent;
     border: 1px solid white;
     padding: 0.4rem;
     border-radius: 4px;
-    background: rgba(0,0,0.4);
+    /* background: rgba(0,0,0.4); */
 
 }
 .signin{
@@ -54,5 +55,39 @@ body{
     border-radius: 4px;
     height: 35px;
     width: 100px;
+}
+.hero_bg_img_cont{
+    width: 100%;
+    height: 100%;
+}
+.hero_bg_img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+.hero_bg_overlay{
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    background:rgba(0,0,0,0.5);
 
+}
+.hero_card{
+    position: absolute;
+    top: 30%;
+    left: 17%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.hero_title{
+    font-weight: 600;
+    font-size: 3rem;
+
+}
+.hero_subtitle, .hero_desc{
+    font-weight: 400;
+    font-size: 1.3rem;
 }
